@@ -29,7 +29,7 @@ public class Pakk {
 
     }
     public Pakk() {
-        Kaardid = tervepakk();
+        immutableKaardid = tervepakk();
     }
 
     @Override

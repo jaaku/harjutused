@@ -19,7 +19,7 @@ public class TestKaardiPakk {
         System.out.println(kaart2.toString());
         Pakk pakk1 = new Pakk();
         System.out.println("pakk1" +pakk1);
-        pakk1.võtaKaart();
+        //pakk1.võtaKaart();
         System.out.println("pakk1-1" +pakk1);
 
         // 1. Üritan luua vigast kaarti new Kaart("1", '♣') Vigase kaardi loomine õnnestus.
@@ -47,6 +47,8 @@ public class TestKaardiPakk {
         System.out.println(set);
         System.out.println(korduvatepakk.getKaardid());
         System.out.println(kaart1.equals(kaart3));
+        Pakk  täispakk2 = new Pakk();
+        System.out.println(täispakk2.getKaardid());
 
     }
 }
